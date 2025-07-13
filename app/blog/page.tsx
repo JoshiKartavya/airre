@@ -1,10 +1,12 @@
 import React from 'react';
+import Footer from '../components/footer/Footer';
+import Navbar from '../components/navbar/Navbar';
 
 export default function BlogPage() {
   return (
-    <main style={{ padding: '2rem' }}>
-      <h1>Blog</h1>
-      <p>This is the blog page.</p>
-    </main>
+    <>
+    <Navbar />
+    <Footer />
+    </>
   );
 } 
